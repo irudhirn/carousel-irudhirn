@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <title>Infinite Carousel</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <span class="logo-span"
+        ><img
+          src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          alt="logo"
+          class="logo"
+      /></span>
+      <input type="text" />
+    </nav>
+    <div class="arrows">
+      <span class="arrow left">
+        <i class="fa-solid fa-chevron-left"></i>
+      </span>
+      <span class="arrow right">
+        <i class="fa-solid fa-chevron-right"></i>
+      </span>
+    </div>
+    <div class="carousel-container">
+      <div class="carousel">
+        <div id="eight-clone" class="carousel-image">
+          <img src="img/amazon8.jpg" alt="eight-clone" />
+        </div>
+        <div id="one" class="carousel-image">
+          <img src="img/amazon1.jpg" alt="one" />
+        </div>
+        <div id="two" class="carousel-image">
+          <img src="img/amazon2.jpg" alt="two" />
+        </div>
+        <div id="three" class="carousel-image">
+          <img src="img/amazon3.jpg" alt="three" />
+        </div>
+        <div id="four" class="carousel-image">
+          <img src="img/amazon4.jpg" alt="four" />
+        </div>
+        <div id="five" class="carousel-image">
+          <img src="img/amazon5.jpg" alt="five" />
+        </div>
+        <div id="six" class="carousel-image">
+          <img src="img/amazon6.jpg" alt="six" />
+        </div>
+        <div id="seven" class="carousel-image">
+          <img src="img/amazon7.jpg" alt="seven" />
+        </div>
+        <div id="eight" class="carousel-image">
+          <img src="img/amazon8.jpg" alt="eight" />
+        </div>
+        <div id="one-clone" class="carousel-image">
+          <img src="img/amazon1.jpg" alt="one-clone" />
+        </div>
+        <!-- <div id="eight-clone" class="carousel-image"></div>
+        <div id="one" class="carousel-image"></div>
+        <div id="two" class="carousel-image"></div>
+        <div id="three" class="carousel-image"></div>
+        <div id="four" class="carousel-image"></div>
+        <div id="five" class="carousel-image"></div>
+        <div id="six" class="carousel-image"></div>
+        <div id="seven" class="carousel-image"></div>
+        <div id="eight" class="carousel-image"></div>
+        <div id="one-clone" class="carousel-image"></div> -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="cards">
+        <div class="card">
+          <div class="card__content">
+            <div class="card__content--header">
+              <h4>Summer essentials for car & bike</h4>
+            </div>
+            <div class="card__content--images">
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://m.media-amazon.com/images/I/41kwH0GpHPL._SR210,210_.jpg"
+                    alt="car-cover"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Car cover</p>
+                </div>
+              </div>
+
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://m.media-amazon.com/images/I/41vb7+aKV4L._SR210,210_.jpg"
+                    alt="bike-cover"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Bike cover</p>
+                </div>
+              </div>
+
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://m.media-amazon.com/images/I/41HToieSG2L._SR210,210_.jpg"
+                    alt="air-freshner"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Air freshners</p>
+                </div>
+              </div>
+
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://m.media-amazon.com/images/I/41VxLFNBQoL._SR210,210_.jpg"
+                    alt="helmets"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Certified Helmets</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <a href="/">See all</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" id="single">
+          <div class="card__content">
+            <div class="card__content--header">
+              <h4>Up to 70% off | Clearance store</h4>
+            </div>
+            <div class="card__content--images" id="single-image">
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg"
+                    alt="clearance"
+                    class="span-two"
+                  />
+                </div>
+              </div>
+            </div>
+            <div>
+              <a href="/">See all</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__content">
+            <div class="card__content--header">
+              <h4>Automotive essentials | Up to 60% off</h4>
+            </div>
+            <div class="card__content--images">
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare1X._SY116_CB410830553_.jpg"
+                    alt="cleaning-accessories"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Cleaning accessories</p>
+                </div>
+              </div>
+
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg"
+                    alt="tyre-care"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Tyre care</p>
+                </div>
+              </div>
+
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg"
+                    alt="helmets"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Helmets</p>
+                </div>
+              </div>
+
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum1x._SY116_CB410830552_.jpg"
+                    alt="vaccum-cleaner"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Vaccum cleaner</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <a href="/">See all</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card__content">
+            <div class="card__content--header">
+              <h4>Revamp your home in style</h4>
+            </div>
+            <div class="card__content--images">
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_1_Low._SY116_CB670263840_.jpg"
+                    alt="bedsheets"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Bedsheets, curtains & more</p>
+                </div>
+              </div>
+
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_2_Low._SY116_CB670263840_.jpg"
+                    alt="decoration"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Home decoration</p>
+                </div>
+              </div>
+
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_3_Low._SY116_CB670263840_.jpg"
+                    alt="storage"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Home storage</p>
+                </div>
+              </div>
+
+              <div class="card__images">
+                <div class="card__images--image">
+                  <img
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_4_Low._SY116_CB670263840_.jpg"
+                    alt="lighting"
+                    class="span-one"
+                  />
+                </div>
+                <div class="card__image--label">
+                  <p>Lighting solutions</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <a href="/">See all</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
